@@ -2,6 +2,14 @@ h2 {
     font-size: 34px;
     font-family: Tahoma;
     text-align: center;
+	color: #b9a129;
+	background-color: #1d4557; /* Cor de fundo da caixa */
+    padding: 20px; /* Espaçamento interno, deixa espaço ao redor do texto */
+    border: 2px solid #08141a; /* Borda da caixa */
+    border-radius: 1px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar efeito de profundidade */
+    max-width: 600px; /* Largura máxima da caixa */
+    margin: 20px auto; /* Centraliza a caixa horizontalmente */
 }
 .Paragrafo {
 	font-size: 16px;
@@ -39,4 +47,25 @@ body {
 	color: white;
 	font-family: Tahoma;
 	font-size: 12px;
+	display: inline-block;
+}
+.titulo-caixa-degrade {
+    font-size: 2em; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito */
+    
+    /* Estilo do texto com degradê */
+    background-image: linear-gradient( to bottom, #bb9d18 30%, #524408 70%); /* Degradê de cores no texto */
+    background-clip: text; /* Recorta o fundo ao formato do texto */
+    color: transparent; /* Faz o texto transparente para mostrar o fundo */
+}
+.caixa_titulo{
+	    /* Caixa ao fundo */
+		padding: 20px; /* Espaçamento interno */
+		background-color: #1d4557; /* Cor da caixa */
+		border-radius: 10px; /* Bordas arredondadas */
+		display: inline-block; /* Faz a caixa ajustar ao tamanho do texto */
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra da caixa */
+		text-align: center;
+		font-family: Tahoma;
+		font-size: 28px;
 }
