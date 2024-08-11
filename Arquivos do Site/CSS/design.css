@@ -11,4 +11,15 @@ h2 {
 	margin-right: 210px;
 	margin-top: 10px;
 	margin-bottom: 10px;
+	color: white;
+}
+.font_texto{
+	font-size: 13px;
+	font-family: Tahoma;
+	text-align: center;
+	color: #d4b104;
+}
+body {
+	background-color: #1d4557;
+	background-position: center;
 }
