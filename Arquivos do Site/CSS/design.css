@@ -1,9 +1,18 @@
+body {
+    background-color: #1d4557;
+    background-image: url('../Imagens/Pag_LOL/Backgound.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
 h2 {
     font-size: 34px;
     font-family: Tahoma;
     text-align: center;
-	color: #b9a129;
-	background-color: #1d4557; /* Cor de fundo da caixa */
+    color: #b9a129;
+    background-color: #1d4557; /* Cor de fundo da caixa */
     padding: 20px; /* Espaçamento interno, deixa espaço ao redor do texto */
     border: 2px solid #08141a; /* Borda da caixa */
     border-radius: 1px; /* Bordas arredondadas */
@@ -11,30 +20,25 @@ h2 {
     max-width: 600px; /* Largura máxima da caixa */
     margin: 20px auto; /* Centraliza a caixa horizontalmente */
 }
+
 .Paragrafo {
-	font-size: 16px;
-	font-family: Tahoma;
-	text-align: justify;
-	margin-left: 200px;
-	margin-right: 210px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	color: white;
+    font-size: 16px;
+    font-family: Tahoma;
+    text-align: justify;
+    margin-left: 200px;
+    margin-right: 210px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
 }
-.font_texto{
-	font-size: 13px;
-	font-family: Tahoma;
-	text-align: center;
-	color: #d4b104;
+
+.font_texto {
+    font-size: 13px;
+    font-family: Tahoma;
+    text-align: center;
+    color: #d4b104;
 }
-body {
-    background-color: #1d4557;
-    background-image: url('../Imagens/Pag_LOL/Backgound.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-	background-attachment: fixed;
-}
+
 .caixa {
     background-color: #1d4557; /* Cor de fundo da caixa */
     padding: 20px; /* Espaçamento interno, deixa espaço ao redor do texto */
@@ -43,24 +47,26 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar efeito de profundidade */
     max-width: 600px; /* Largura máxima da caixa */
     margin: 20px auto; /* Centraliza a caixa horizontalmente */
-	text-align: justify;
-	color: white;
-	font-family: Tahoma;
-	font-size: 16px;
+    text-align: justify;
+    color: white;
+    font-family: Tahoma;
+    font-size: 16px;
 }
+
 .titulo-caixa-degrade {
     font-size: 2em; /* Tamanho da fonte */
     font-weight: bold; /* Negrito */
     
     /* Estilo do texto com degradê */
-    background-image: linear-gradient( to bottom, #bb9d18 30%, #524408 70%); /* Degradê de cores no texto */
+    background-image: linear-gradient(to bottom, #bb9d18 30%, #524408 70%); /* Degradê de cores no texto */
     background-clip: text; /* Recorta o fundo ao formato do texto */
     color: transparent; /* Faz o texto transparente para mostrar o fundo */
 }
+
 .caixa_titulo {
     padding: 20px; /* Espaçamento interno */
     background-color: #1d4557; /* Cor da caixa */
-	border: 2px solid #08141a;
+    border: 2px solid #08141a;
     border-radius: 5px; /* Bordas arredondadas */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra da caixa */
     text-align: center; /* Centraliza o texto */
@@ -70,6 +76,7 @@ body {
     max-width: 600px; /* Largura máxima */
     margin: 0 auto; /* Centraliza a caixa horizontalmente */
 }
+
 .menu-lateral {
     position: fixed; /* Fixa o menu na tela */
     top: 0; /* Posiciona no topo da página */
@@ -98,8 +105,13 @@ body {
     font-family: Tahoma;
     font-size: 18px;
     padding: 10px 15px; /* Espaçamento interno dos links */
-    display: block; /* Faz o link ocupar toda a largura do item */
+    display: flex; /* Alinha os itens em linha */
+    align-items: center; /* Alinha verticalmente ao centro */
     transition: background-color 0.3s; /* Transição suave ao passar o mouse */
+}
+
+.menu-lateral ul li a img {
+    margin-right: 10px; /* Espaço entre a imagem e o texto */
 }
 
 .menu-lateral ul li a:hover {
@@ -122,6 +134,7 @@ body {
     max-height: 70vh; /* Limita a altura a 70% da tela */
     overflow-y: auto; /* Permite rolar */
 }
+
 /* Estiliza a barra de rolagem para WebKit (Chrome, Safari) */
 .menu-lateral {
     scrollbar-width: thin; /* Para Firefox */
