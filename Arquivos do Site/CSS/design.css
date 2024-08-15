@@ -33,10 +33,17 @@ h2 {
 }
 
 .font_texto {
-    font-size: 13px;
-    font-family: Tahoma;
+    font-size: 48px;
+    font-family: Times New Roman;
     text-align: center;
-    color: #d4b104;
+    color: #8a7516;
+    background-color: #1d4557; /* Cor de fundo da caixa */
+    padding: 20px; /* Espaçamento interno, deixa espaço ao redor do texto */
+    border: 2px solid #08141a; /* Borda da caixa */
+    border-radius: 1px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar efeito de profundidade */
+    max-width: 600px; /* Largura máxima da caixa */
+    margin: 20px auto; /* Centraliza a caixa horizontalmente */
 }
 
 .caixa {
