@@ -17,7 +17,7 @@ h1{
 }
 
 nav {
-    background-color: #333;
+    background-color: #003cac;
 }
 
 .menu {
@@ -40,6 +40,7 @@ nav {
     color: #fff;
     text-decoration: none;
     display: block;
+    font-family: Tahoma;
 }
 
 .menu > li:hover {
@@ -65,6 +66,7 @@ nav {
     color: #fff;
     text-decoration: none;
     display: block;
+    font-family: Tahoma;
 }
 
 .submenu li:hover {
@@ -74,3 +76,4 @@ nav {
 .menu li:hover .submenu {
     display: block;
 }
+/* criar um <p class> para o corpo do site, ou atualizar o corpo ja existente */
