@@ -143,3 +143,9 @@ nav {
 .formulario-registro button:hover {
     background-color: #444;
 }
+.Registro{
+    font-family: Tahoma;
+    font-size: 28px;
+    text-align: center;
+    
+}
