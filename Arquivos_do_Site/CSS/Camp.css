@@ -8,7 +8,7 @@ h1{
     color: black;
 }
 .corpo{
-    text-align: justify;
+    text-align: center;
     margin-left: 200px;
     margin-right: 200px;
     font-family: Tahoma;
@@ -77,3 +77,69 @@ nav {
     display: block;
 }
 /* criar um <p class> para o corpo do site, ou atualizar o corpo ja existente */
+.button-image {
+    border: none;
+    padding: 0;
+    background: none;
+    cursor: pointer;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.button-image img {
+    display: block;
+}
+.conteiner {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.formulario-registro {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Tahoma;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.formulario-registro h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.formulario-registro label {
+    display: block;
+    margin-bottom: 8px;
+    color: black;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.formulario-registro input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.formulario-registro button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #003cac;
+    margin-top: 10px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.formulario-registro button:hover {
+    background-color: #444;
+}
