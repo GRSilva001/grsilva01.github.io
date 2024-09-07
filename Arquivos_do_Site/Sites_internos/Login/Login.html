@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="..\..\CSS\Camp.css">
+    <title>Login</title>
+</head>
+<body>
+    <h1>RotaCampinas</h1>
+    <nav>
+        <ul class="menu">
+            <li><a href="..\..\Site_principal.html">Início</a></li>
+            <li><a href="#">Destinos</a>
+                <ul class="submenu">
+                    <li><a href="#">Parques</a></li>
+                    <li><a href="#">Museus</a></li>
+                    <li><a href="#">Restaurantes</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="../Contatos/Contatos.html">Contato</a></li>
+            <li><a href="Login.html">Login</a></li>
+        </ul>
+    </nav>
+    <div class="conteiner">
+        <div class="formulario-registro">
+            <h2>Efetue o Login</h2>
+            <form action="processa_registro.php" method="POST">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha" required><br>
+                <button type="button" onclick="window.location.href='../../Site_principal.html';">Entrar</button>
+            </form>
+            <p>Crie uma conta!</p><a href="Registro.html">Clique Aqui.</a>
+        </div>
+    </div>
+    <!--Menu precisa ter o redirecionamento! (trocar as '#' por links de outras paginas a serem criadas)-->
+    
+</body>
+</html>

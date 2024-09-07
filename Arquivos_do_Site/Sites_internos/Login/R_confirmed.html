@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="..\CSS\Camp.css">
+    <link rel="stylesheet" href="..\..\CSS\Camp.css">
     <title>Obrigado</title>
 </head>
 <body>
     <h1>RotaCampinas</h1>
     <nav>
         <ul class="menu">
-            <li><a href="..\Site_principal.html">Início</a></li>
+            <li><a href="..\..\Site_principal.html">Início</a></li>
             <li><a href="#">Destinos</a>
                 <ul class="submenu">
                     <li><a href="#">Parques</a></li>
@@ -19,14 +19,20 @@
                 </ul>
             </li>
             <li><a href="#">Sobre</a></li>
-            <li><a href="#">Contato</a></li>
-            <li><a href="#">Login</a></li>
+            <li><a href="../Contatos/Contatos.html">Contato</a></li>
+            <li><a href="Login.html">Login</a></li>
         </ul>
     </nav>
         <div class="conteiner">
-            <P class="Registro">
-                Obrigado por se registrar!
-            </P>
+            <div class="formulario-registro">
+                <P class="Registro">
+                    Obrigado por se registrar!<br>
+                    <h3>Por favor, efetue o Login para configurar seu perfil!</h3>
+                
+                    <button type="button" onclick="window.location.href='Login.html';">Login</button>
+                
+                </P>
+            </div>
         </div>
     <!--Menu precisa ter o redirecionamento! (trocar as '#' por links de outras paginas a serem criadas)-->
     
