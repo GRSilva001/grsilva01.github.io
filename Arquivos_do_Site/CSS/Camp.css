@@ -1,9 +1,16 @@
+/*estilo do corpo do site*/
 body{
     color: rgb(189, 189, 189);
 }
 h1{
     text-align: center;
     font-size: 38px;
+    font-family: Tahoma;
+    color: black;
+}
+h3{
+    text-align: center;
+    font-size: 28px;
     font-family: Tahoma;
     color: black;
 }
@@ -76,7 +83,7 @@ nav {
 .menu li:hover .submenu {
     display: block;
 }
-/* criar um <p class> para o corpo do site, ou atualizar o corpo ja existente */
+
 .button-image {
     border: none;
     padding: 0;
@@ -88,6 +95,7 @@ nav {
 .button-image img {
     display: block;
 }
+/*estilo do formulario*/
 .conteiner {
     display: flex;
     margin: 0 auto;
@@ -143,9 +151,81 @@ nav {
 .formulario-registro button:hover {
     background-color: #444;
 }
+
 .Registro{
     font-family: Tahoma;
     font-size: 28px;
     text-align: center;
     
+}
+/*Estilo das noticias do site principal*/
+.noticia {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.noticia img {
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.texto-noticia {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.noticia h2 {
+    font-size: 18px;
+    color: black;
+    font-family: Tahoma;
+    margin: 0;
+}
+
+.noticia a {
+    text-decoration: none;
+    color: #003cac;
+    font-family: Tahoma;
+    font-size: 16px;
+}
+
+.noticia a:hover {
+    color: #444;
+}
+
+.noticia.destaque {
+    font-size: 20px;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.assinatura-container {
+    display: flex;
+    align-items: center; /* Alinha verticalmente os itens no centro */
+    gap: 5px; /* Espaço entre os elementos */
+    margin: 20px 0; /* Margem acima e abaixo do contêiner */
+}
+
+.assinatura-container p {
+    margin: 0; /* Remove a margem dos parágrafos */
+    padding: 0; /* Remove padding, se houver */
+}
+
+.assinatura-container a {
+    font-family: Tahoma; /* Define a fonte Tahoma para os links */
+    text-decoration: none; /* Remove o sublinhado se desejar */
+    color: #003cac; /* Mantém a cor do link, ajuste conforme necessário */
+}
+
+.assinatura-container a:hover {
+    color: #444; /* Cor do link quando hover, ajuste conforme necessário */
 }
