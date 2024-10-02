@@ -229,3 +229,79 @@ nav {
 .assinatura-container a:hover {
     color: #444; /* Cor do link quando hover, ajuste conforme necessário */
 }
+
+.caixa-historia {
+    background-image: url('../Imagens/Pag_inicial/campinas-sp.png');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 8px;
+    position: relative;
+    margin-top: 20px;
+    text-align: center;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.caixa-historia::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 8px;
+    z-index: 1;
+}
+
+.corpo-historia {
+    position: relative;
+    z-index: 2;
+    color: black;
+    font-family: Tahoma;
+    font-size: 18px;
+}
+
+.corpo-historia a {
+    color: #003cac;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.corpo-historia a:hover {
+    color: #444;
+}
+
+.lista-parques {
+    display: flex;
+    flex-wrap: wrap; /*permite que os itens se movam para a linha seguinte, se necessário*/
+    justify-content: center; /*alinha os itens no centro*/
+    padding: 0; /*remove o padding da lista*/
+}
+
+.lista-parques li {
+    list-style-type: none; /*remove os marcadores da lista*/
+    margin: 20px; /*espaçamento entre os itens*/
+    text-align: center;
+}
+
+.lista-parques img {
+    width: 200px; /*largura fixa para todas as imagens*/
+    height: 150px; /*altura fixa para todas as imagens*/
+    border-radius: 8px; /*bordas das imagens*/
+    object-fit: cover; /*imagem preenche a área definida*/
+}
+
+.lista-parques a {
+    display: block; /*link ocupando a linha toda*/
+    margin-top: 10px; /*espaçamento entre a imagem e o link*/
+    text-decoration: none; /*remove o sublinhado dos links*/
+    color: #003cac; /*define a cor do link*/
+    font-family: Tahoma;
+    font-size: 16px;
+}
+
+.lista-parques a:hover {
+    color: #444; /*cor do link ao passar o mouse*/
+}
